@@ -6,6 +6,6 @@ spring:
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://rm-bp1z81te81pnav722.mysql.rds.aliyuncs.com:3306/chat_log_qa?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&rewriteBatchedStatements=true&useSSL=true
-    username: wekj_qa
-    password: Wekj2db_qa
+    url: url
+    username: username
+    password: password
