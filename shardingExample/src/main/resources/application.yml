@@ -1,0 +1,26 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: shardingExample
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.jdbc.Driver
+
+
+sharding:
+  datasource:
+    first:
+      url: url
+      username: userName
+      password: password
+    second:
+      url: url
+      username: userName
+      password: password
+    second:
+      url: url
+      username: userName
+      password: password
+
+
